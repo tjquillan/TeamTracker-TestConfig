@@ -7,8 +7,8 @@
                 "action": "mean"
             }
         ],
-        "list": {},
-        "table": {},
+        "list": [],
+        "table": [],
         "filter": [
             {
                 "tableColumn": "B",

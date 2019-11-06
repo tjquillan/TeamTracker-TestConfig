@@ -1,3 +1,5 @@
-function hello() {
-	console.log("Hello World")
+var actions = {
+    hello: () => {
+        console.log("Hello");
+    }
 }

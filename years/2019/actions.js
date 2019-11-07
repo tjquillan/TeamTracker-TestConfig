@@ -1,5 +1,5 @@
 var actions = {
-    hello: () => {
-        console.log("Hello");
-    }
+  hello: () => {
+    console.log("Hello");
+  }
 }

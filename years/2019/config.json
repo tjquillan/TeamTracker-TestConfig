@@ -1,19 +1,26 @@
 {
+  "elements": [
+    {
+      "id": "cargoShipCargo",
+      "tableColumn": "B",
+      "action": "mean"
+    }
+  ],
   "displays": {
     "graph": [
       {
-        "tableColumn": "B",
         "title": "Cargo ship - Cargo",
-        "action": "mean"
+        "id": "cargoShipCargo"
       }
     ],
     "list": [],
     "table": [],
     "filter": [
       {
-        "tableColumn": "B",
         "title": "CS Cargo",
-        "action": "mean"
+        "id": "cargoShipCargo",
+        "min": 0,
+        "max": 100
       }
     ]
   }

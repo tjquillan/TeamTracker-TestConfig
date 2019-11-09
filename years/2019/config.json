@@ -3,6 +3,7 @@
     {
       "id": "cargoShipCargo",
       "tableColumn": 3,
+      "type": "number",
       "action": "mean"
     }
   ],

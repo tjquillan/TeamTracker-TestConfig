@@ -2,7 +2,7 @@
   "elements": [
     {
       "id": "cargoShipCargo",
-      "tableColumn": 4,
+      "tableColumn": 3,
       "action": "mean"
     }
   ],

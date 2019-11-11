@@ -1,25 +1,179 @@
 {
   "elements": [
     {
-      "id": "cargoShipCargo",
+      "id": "cargoShipCargoArray",
+      "tableColumn": 3,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "cargoShipCargoMean",
       "tableColumn": 3,
       "type": "number",
       "action": "mean"
+    },
+    {
+      "id": "cargoShipHatchArray",
+      "tableColumn": 4,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "cargoShipHatchMean",
+      "tableColumn": 4,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketCargo1Array",
+      "tableColumn": 5,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketCargo1Mean",
+      "tableColumn": 5,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketCargo2Array",
+      "tableColumn": 6,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketCargo2Mean",
+      "tableColumn": 6,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketCargo3Array",
+      "tableColumn": 7,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketCargo3Mean",
+      "tableColumn": 7,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketHatch1Array",
+      "tableColumn": 8,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketHatch1Mean",
+      "tableColumn": 8,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketHatch2Array",
+      "tableColumn": 9,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketHatch2Mean",
+      "tableColumn": 9,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "rocketHatch3Array",
+      "tableColumn": 10,
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "rocketHatch3Mean",
+      "tableColumn": 10,
+      "type": "number",
+      "action": "mean"
+    },
+    {
+      "id": "mostCommonHabClimb",
+      "tableColumn": 11,
+      "type": "string",
+      "action": "mostCommonHabClimb"
+    },
+    {
+      "id": "habClimb1Freq",
+      "tableColumn": 11,
+      "type": "string",
+      "action": "habClimb1Freq"
+    },
+    {
+      "id": "habClimb2Freq",
+      "tableColumn": 11,
+      "type": "string",
+      "action": "habClimb2Freq"
+    },
+    {
+      "id": "habClimb3Freq",
+      "tableColumn": 11,
+      "type": "string",
+      "action": "habClimb3Freq"
+    },
+    {
+      "id": "comments",
+      "tableColumn": 12,
+      "type": "string",
+      "action": null
     }
   ],
   "displays": {
     "graph": [
       {
-        "title": "Cargo ship - Cargo",
-        "id": "cargoShipCargo"
+        "title": "Cargo Ship - Cargo",
+        "id": "cargoShipCargoMean"
+      },
+      {
+        "title": "Cargo Ship - Hatch",
+        "id": "cargoShipHatchMean"
+      },
+      {
+        "title": "HAB Climb",
+        "id": "mostCommonHabClimb"
       }
     ],
-    "list": [],
-    "table": [],
+    "list": [
+      {
+        "title": "Level 1 Climb",
+        "id": "habClimb1Freq"
+      },
+      {
+        "title": "Level 2 Climb",
+        "id": "habClimb2Freq"
+      },
+      {
+        "title": "Level 3 Climb",
+        "id": "habClimb3Freq"
+      }
+    ],
+    "table": [
+      {
+        "title": "CS Cargo",
+        "id": "cargoShipCargoArray"
+      },
+      {
+        "title": "CS Hatches",
+        "id": "cargoShipHatchArray"
+      }
+      {
+        "title": "Comments",
+        "id": "comments"
+      }
+    ],
     "filter": [
       {
         "title": "CS Cargo",
-        "id": "cargoShipCargo",
+        "id": "cargoShipCargoMean",
         "min": 0,
         "max": 100
       }

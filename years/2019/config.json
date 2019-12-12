@@ -175,7 +175,7 @@
         "title": "CS Cargo",
         "id": "cargoShipCargoMean",
         "min": 0,
-        "max": 100
+        "max": 10
       }
     ]
   }

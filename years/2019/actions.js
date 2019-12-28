@@ -17,31 +17,16 @@ var actions = {
     }
     return parseInt(item.replace('level ', ''));
   },
-  habClimb1Freq: (array) => {
+  _habClimbFreq: (array, level) => {
     var freq = 0;
     for (var i = 0; i < array.length; i++) {
-      if (array[i] === 'level 1') {
+      if (array[i] === level) {
         freq++;
       }
     }
-    return ((freq / array.length) * 100) + "%";
+    return ((freq / array.length) * 100).toFixed(3) + "%";
   },
-  habClimb2Freq: (array) => {
-    var freq = 0;
-    for (var i = 0; i < array.length; i++) {
-      if (array[i] === 'level 2') {
-        freq++;
-      }
-    }
-    return ((freq / array.length) * 100) + "%";
-  },
-  habClimb3Freq: (array) => {
-    var freq = 0;
-    for (var i = 0; i < array.length; i++) {
-      if (array[i] === 'level 3') {
-        freq++;
-      }
-    }
-    return ((freq / array.length) * 100) + "%";
-  },
+  habClimb1Freq: (array) => actions._habClimbFreq(array, 'level 1'),
+  habClimb2Freq: (array) => actions._habClimbFreq(array, 'level 2'),
+  habClimb3Freq: (array) => actions._habClimbFreq(array, 'level 3'),
 }

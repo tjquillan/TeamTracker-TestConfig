@@ -170,6 +170,16 @@
         "id": "comments"
       }
     ],
+    "tableFooter": [
+      {
+        "title": "Average:",
+        "id": "cargoShipCargoMean"
+      },
+      {
+        "title": "Average:",
+        "id": "cargoShipHatchMean"
+      }
+    ],
     "filter": [
       {
         "title": "CS Cargo",

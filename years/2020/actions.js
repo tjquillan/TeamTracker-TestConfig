@@ -4,8 +4,8 @@ var actions = {
     return freq !== NaN ? freq : 0
   },
   accuracy: (array) => {
-    var length = array[0].length + array[1].length
-    var ans = (array[0].length / length) * 100
+    var array = array.map((array) => array.reduce((prev, curr) => prev + curr))
+    var ans = (array[0] / array.reduce((prev, curr) => prev + curr)) * 100
     return ans !== NaN ? ans : 0
   },
   accuracyStr: (array) => {

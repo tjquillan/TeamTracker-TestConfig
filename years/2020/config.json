@@ -15,74 +15,74 @@
     {
       "id": "autonLowPortScoredArray",
       "tableColumn": [4],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "autonLowPortMissedArray",
       "tableColumn": [5],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "autonLowPortAccuracy",
       "tableColumn": [4, 5],
-      "type": "string",
+      "type": "number",
       "action": "accuracy"
     },
     {
       "id": "autonHighPortScoredArray",
       "tableColumn": [6],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "autonHighPortMissedArray",
       "tableColumn": [7],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "autonHighPortAccuracy",
       "tableColumn": [6, 7],
-      "type": "string",
+      "type": "number",
       "action": "accuracy"
     },
 
     {
       "id": "teleopLowPortScoredArray",
       "tableColumn": [8],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "teleopLowPortMissedArray",
       "tableColumn": [9],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "teleopLowPortAccuracy",
       "tableColumn": [8, 9],
-      "type": "string",
+      "type": "number",
       "action": "accuracy"
     },
     {
       "id": "teleopHighPortScoredArray",
       "tableColumn": [10],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "teleopHighPortMissedArray",
       "tableColumn": [11],
-      "type": "string",
+      "type": "number",
       "action": null
     },
     {
       "id": "teleopHighPortAccuracy",
       "tableColumn": [10, 11],
-      "type": "string",
+      "type": "number",
       "action": "accuracy"
     }
   ],

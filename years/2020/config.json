@@ -84,6 +84,12 @@
       "tableColumn": [10, 11],
       "type": "number",
       "action": "accuracy"
+    },
+    {
+      "id": "comments",
+      "tableColumn": [13],
+      "type": "string",
+      "action": null
     }
   ],
   "displays": {
@@ -109,7 +115,10 @@
 
     ],
     "table": [
-
+      {
+        "title": "Comments",
+        "id": "comments"
+      }
     ],
     "tableFooter": [
 

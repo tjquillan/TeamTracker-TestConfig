@@ -5,7 +5,7 @@ var actions = {
   },
   accuracy: (array) => {
     var array = array.map((array) => array.reduce((prev, curr) => prev + curr, 0))
-    var ans = (array[0] / array.reduce((prev, curr) => prev + curr), 0) * 100
+    var ans = (array[0] / array.reduce((prev, curr) => prev + curr, 0)) * 100
     return ans !== NaN ? ans : 0
   },
   accuracyStr: (array) => {

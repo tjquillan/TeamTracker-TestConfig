@@ -95,6 +95,10 @@
   "displays": {
     "graph": [
       {
+        "title": "Moved From Line (Auto)",
+        "id": "movedFromLineFrequency"
+      },
+      {
         "title": "Lower Port Accuracy (Auto)",
         "id": "autonLowPortAccuracy"
       },
@@ -124,7 +128,36 @@
 
     ],
     "filter": [
-
+      {
+        "title": "Moved From Line (Auto)",
+        "id": "movedFromLineFrequency",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Lower Port Accuracy (Auto)",
+        "id": "autonLowPortAccuracy",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Outer/Inner Port Accuracy (Auto)",
+        "id": "autonHighPortAccuracy",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Lower Port Accuracy (Teleop)",
+        "id": "teleopLowPortAccuracy",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Outer/Inner Port Accuracy (Teleop)",
+        "id": "teleopHighPortAccuracy",
+        "min": 0,
+        "max": 100
+      }
     ]
   }
 }

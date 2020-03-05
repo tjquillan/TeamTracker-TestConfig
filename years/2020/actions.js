@@ -5,6 +5,9 @@ var actions = {
   },
   accuracy: (array) => {
     var length = array[0].length + array[1].length
-    return (array[0].length / length) + "%"
+    return (array[0].length / length)
+  },
+  accuracyStr: (array) => {
+    actions.accuracy(array) + "%"
   }
 }

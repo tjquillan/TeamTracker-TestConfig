@@ -1,5 +1,6 @@
 var actions = {
   mostCommonHabClimb: (array) => {
+    array = array[0]
     var mf = 1;
     var m = 0;
     var item;
@@ -18,6 +19,7 @@ var actions = {
     return parseInt(item.replace('level ', ''));
   },
   _habClimbFreq: (array, level) => {
+    array = array[0]
     var freq = 0;
     for (var i = 0; i < array.length; i++) {
       if (array[i] === level) {

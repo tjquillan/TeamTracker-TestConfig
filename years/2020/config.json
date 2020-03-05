@@ -2,92 +2,92 @@
   "elements": [
     {
       "id": "movedFromLineArray",
-      "tableColumn": [3],
+      "tableColumn": [2],
       "type": "string",
       "action": null
     },
     {
       "id": "movedFromLineFrequency",
-      "tableColumn": [3],
+      "tableColumn": [2],
       "type": "string",
       "action": "moveLineFrequency"
     },
     {
       "id": "autonLowPortScoredArray",
-      "tableColumn": [4],
+      "tableColumn": [3],
       "type": "number",
       "action": null
     },
     {
       "id": "autonLowPortMissedArray",
-      "tableColumn": [5],
+      "tableColumn": [4],
       "type": "number",
       "action": null
     },
     {
       "id": "autonLowPortAccuracy",
-      "tableColumn": [4, 5],
+      "tableColumn": [3, 4],
       "type": "number",
       "action": "accuracy"
     },
     {
       "id": "autonHighPortScoredArray",
-      "tableColumn": [6],
+      "tableColumn": [5],
       "type": "number",
       "action": null
     },
     {
       "id": "autonHighPortMissedArray",
-      "tableColumn": [7],
+      "tableColumn": [6],
       "type": "number",
       "action": null
     },
     {
       "id": "autonHighPortAccuracy",
-      "tableColumn": [6, 7],
+      "tableColumn": [5, 6],
       "type": "number",
       "action": "accuracy"
     },
 
     {
       "id": "teleopLowPortScoredArray",
-      "tableColumn": [8],
+      "tableColumn": [7],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopLowPortMissedArray",
-      "tableColumn": [9],
+      "tableColumn": [8],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopLowPortAccuracy",
-      "tableColumn": [8, 9],
+      "tableColumn": [7, 8],
       "type": "number",
       "action": "accuracy"
     },
     {
       "id": "teleopHighPortScoredArray",
-      "tableColumn": [10],
+      "tableColumn": [9],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopHighPortMissedArray",
-      "tableColumn": [11],
+      "tableColumn": [10],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopHighPortAccuracy",
-      "tableColumn": [10, 11],
+      "tableColumn": [9, 10],
       "type": "number",
       "action": "accuracy"
     },
     {
       "id": "comments",
-      "tableColumn": [13],
+      "tableColumn": [12],
       "type": "string",
       "action": null
     }

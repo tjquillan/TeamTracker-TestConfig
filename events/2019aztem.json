@@ -1,6 +1,7 @@
 {
   "match": {
     "spreadsheetId": "1Taj0_24aJwzHTYo09CzAOaBBhJd_kq6dhAtne0v2ogY",
-    "range": "B2:P"
+    "range": "B2:P",
+    "teamColumn": "0"
   }
 }

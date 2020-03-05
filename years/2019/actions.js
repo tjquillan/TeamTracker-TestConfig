@@ -1,6 +1,7 @@
 var actions = {
   mostCommonHabClimb: (array) => {
     array = array[0]
+    console.log(array)
     var mf = 1;
     var m = 0;
     var item;

@@ -1,7 +1,7 @@
 var actions = {
   moveLineFrequency: (array) => {
     var freq = array.filter((value) => value === "Yes").length / array.length
-    return freq !== NaN ? ans : 0
+    return freq !== NaN ? freq : 0
   },
   accuracy: (array) => {
     var length = array[0].length + array[1].length

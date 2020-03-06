@@ -46,6 +46,12 @@
       "type": "number",
       "action": "accuracy"
     },
+    {
+      "id": "autonLowPortAccuracyStr",
+      "tableColumn": [3, 4],
+      "type": "number",
+      "action": "accuracyStr"
+    },
 
 
 
@@ -79,6 +85,12 @@
       "tableColumn": [5, 6],
       "type": "number",
       "action": "accuracy"
+    },
+    {
+      "id": "autonHighPortAccuracyStr",
+      "tableColumn": [5, 6],
+      "type": "number",
+      "action": "accuracyStr"
     },
 
 
@@ -114,7 +126,12 @@
       "type": "number",
       "action": "accuracy"
     },
-
+    {
+      "id": "teleopLowPortAccuracyStr",
+      "tableColumn": [7, 8],
+      "type": "number",
+      "action": "accuracyStr"
+    },
 
 
 
@@ -147,6 +164,12 @@
       "tableColumn": [9, 10],
       "type": "number",
       "action": "accuracy"
+    },
+    {
+      "id": "teleopHighPortAccuracyStr",
+      "tableColumn": [9, 10],
+      "type": "number",
+      "action": "accuracyStr"
     },
 
 
@@ -185,19 +208,19 @@
       },
       {
         "title": "Lower Port Accuracy (Auto)",
-        "id": "autonLowPortAccuracy"
+        "id": "autonLowPortAccuracyStr"
       },
       {
         "title": "Outer/Inner Port Accuracy (Auto)",
-        "id": "autonHighPortAccuracy"
+        "id": "autonHighPortAccuracyStr"
       },
       {
         "title": "Lower Port Accuracy (Teleop)",
-        "id": "teleopLowPortAccuracy"
+        "id": "teleopLowPortAccuracyStr"
       },
       {
         "title": "Outer/Inner Port Accuracy (Teleop)",
-        "id": "teleopHighPortAccuracy"
+        "id": "teleopHighPortAccuracyStr"
       }
     ],
     "table": [

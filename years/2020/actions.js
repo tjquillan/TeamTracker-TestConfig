@@ -17,7 +17,8 @@ var actions = {
     actions.accuracy(array) + "%"
   },
   sum: (array) => {
-    return array.reduce((prev, curr) => prev + curr, 0)
+    var sum = array.reduce((prev, curr) => prev + curr, 0)
+    return !Number.isNaN(sum) ? ans : 0
   },
   averagePerMatch: (array) => {
     return actions.sum(array) / array.length

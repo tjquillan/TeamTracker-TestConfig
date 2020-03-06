@@ -12,6 +12,12 @@
       "type": "string",
       "action": "moveLineFrequency"
     },
+    {
+      "id": "movedFromLineFrequencyStr",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequencyStr"
+    },
 
 
 

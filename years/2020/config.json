@@ -195,16 +195,32 @@
         "id": "autonLowPortScoredAverage"
       },
       {
+        "title": "Auto Missed LP",
+        "id": "autonLowPortMissedAverage"
+      },
+      {
         "title": "Auto OP",
         "id": "autonHighPortScoredAverage"
+      },
+      {
+        "title": "Auto Missed OP",
+        "id": "autonHighPortMissedAverage"
       },
       {
         "title": "TeleOp LP",
         "id": "teleopLowPortScoredAverage"
       },
       {
+        "title": "TeleOp Missed LP",
+        "id": "teleopLowPortMissedAverage"
+      },
+      {
         "title": "TeleOp OP",
         "id": "teleopHighPortScoredAverage"
+      },
+      {
+        "title": "TeleOp Missed OP",
+        "id": "teleopHighPortMissedAverage"
       }
     ],
     "list": [

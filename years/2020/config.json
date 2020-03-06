@@ -12,11 +12,21 @@
       "type": "string",
       "action": "moveLineFrequency"
     },
+
+
+
+
     {
       "id": "autonLowPortScoredArray",
       "tableColumn": [3],
       "type": "number",
       "action": null
+    },
+    {
+      "id": "autonLowPortScoredAverage",
+      "tableColumn": [3],
+      "type": "number",
+      "action": "averagePerMatch"
     },
     {
       "id": "autonLowPortMissedArray",
@@ -25,16 +35,32 @@
       "action": null
     },
     {
+      "id": "autonLowPortMissedAverage",
+      "tableColumn": [4],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
       "id": "autonLowPortAccuracy",
       "tableColumn": [3, 4],
       "type": "number",
       "action": "accuracy"
     },
+
+
+
+
     {
       "id": "autonHighPortScoredArray",
       "tableColumn": [5],
       "type": "number",
       "action": null
+    },
+    {
+      "id": "autonHighPortScoredAverage",
+      "tableColumn": [5],
+      "type": "number",
+      "action": "averagePerMatch"
     },
     {
       "id": "autonHighPortMissedArray",
@@ -43,11 +69,20 @@
       "action": null
     },
     {
+      "id": "autonHighPortMissedAverage",
+      "tableColumn": [6],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
       "id": "autonHighPortAccuracy",
       "tableColumn": [5, 6],
       "type": "number",
       "action": "accuracy"
     },
+
+
+
 
     {
       "id": "teleopLowPortScoredArray",
@@ -56,10 +91,22 @@
       "action": null
     },
     {
+      "id": "telepLowPortScoredAverage",
+      "tableColumn": [7],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
       "id": "teleopLowPortMissedArray",
       "tableColumn": [8],
       "type": "number",
       "action": null
+    },
+    {
+      "id": "telepLowPortMissedAverage",
+      "tableColumn": [8],
+      "type": "number",
+      "action": "averagePerMatch"
     },
     {
       "id": "teleopLowPortAccuracy",
@@ -67,11 +114,21 @@
       "type": "number",
       "action": "accuracy"
     },
+
+
+
+
     {
       "id": "teleopHighPortScoredArray",
       "tableColumn": [9],
       "type": "number",
       "action": null
+    },
+    {
+      "id": "teleopHighPortScoredAverage",
+      "tableColumn": [9],
+      "type": "number",
+      "action": "averagePerMatch"
     },
     {
       "id": "teleopHighPortMissedArray",
@@ -80,11 +137,21 @@
       "action": null
     },
     {
+      "id": "teleopHighPortMissedAverage",
+      "tableColumn": [10],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
       "id": "teleopHighPortAccuracy",
       "tableColumn": [9, 10],
       "type": "number",
       "action": "accuracy"
     },
+
+
+
+
     {
       "id": "comments",
       "tableColumn": [12],
@@ -94,6 +161,24 @@
   ],
   "displays": {
     "graph": [
+      {
+        "title": "Auto LP",
+        "id": "autonLowPortScoredAverage"
+      },
+      {
+        "title": "Auto OP",
+        "id": "autonHighPortScoredAverage"
+      },
+      {
+        "title": "TeleOp LP",
+        "id": "teleopLowPortScoredAverage"
+      },
+      {
+        "title": "TeleOp OP",
+        "id": "teleopHighPortScoredAverage"
+      }
+    ],
+    "list": [
       {
         "title": "Moved From Line (Auto)",
         "id": "movedFromLineFrequency"
@@ -114,9 +199,6 @@
         "title": "Outer/Inner Port Accuracy (Teleop)",
         "id": "teleopHighPortAccuracy"
       }
-    ],
-    "list": [
-
     ],
     "table": [
       {

@@ -18,7 +18,7 @@ var actions = {
   },
   sum: (array) => {
     var sum = array.reduce((prev, curr) => prev + curr, 0)
-    return !Number.isNaN(sum) ? ans : 0
+    return !Number.isNaN(sum) ? sum : 0
   },
   averagePerMatch: (array) => {
     return actions.sum(array) / array.length

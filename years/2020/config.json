@@ -91,7 +91,7 @@
       "action": null
     },
     {
-      "id": "telepLowPortScoredAverage",
+      "id": "teleopLowPortScoredAverage",
       "tableColumn": [7],
       "type": "number",
       "action": "averagePerMatch"
@@ -103,7 +103,7 @@
       "action": null
     },
     {
-      "id": "telepLowPortMissedAverage",
+      "id": "teleopLowPortMissedAverage",
       "tableColumn": [8],
       "type": "number",
       "action": "averagePerMatch"

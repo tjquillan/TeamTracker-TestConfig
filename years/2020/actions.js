@@ -4,7 +4,7 @@ var actions = {
 
     return !Number.isNaN(freq) ? freq : 0
   },
-  moveLineFrequencyStr: () => actions.moveLineFrequency(array) + "%",
+  moveLineFrequencyStr: (array) => actions.moveLineFrequency(array) + "%",
   accuracy: (array) => {
     var array = array.map((array) => array.reduce((prev, curr) => prev + curr, 0))
     var ans = (array[0] / array.reduce((prev, curr) => prev + curr, 0)) * 100

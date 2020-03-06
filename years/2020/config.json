@@ -44,7 +44,7 @@
       "id": "autonLowPortAccuracy",
       "tableColumn": [3, 4],
       "type": "number",
-      "action": "accuracy"
+      "action": "accuracyStr"
     },
 
 
@@ -78,7 +78,7 @@
       "id": "autonHighPortAccuracy",
       "tableColumn": [5, 6],
       "type": "number",
-      "action": "accuracy"
+      "action": "accuracyStr"
     },
 
 
@@ -112,7 +112,7 @@
       "id": "teleopLowPortAccuracy",
       "tableColumn": [7, 8],
       "type": "number",
-      "action": "accuracy"
+      "action": "accuracyStr"
     },
 
 
@@ -146,7 +146,7 @@
       "id": "teleopHighPortAccuracy",
       "tableColumn": [9, 10],
       "type": "number",
-      "action": "accuracy"
+      "action": "accuracyStr"
     },
 
 

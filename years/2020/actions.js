@@ -10,6 +10,7 @@ var actions = {
   accuracy: (array) => {
     var array = array.map((array) => array.reduce((prev, curr) => prev + curr, 0))
     var ans = (array[0] / array.reduce((prev, curr) => prev + curr, 0)) * 100
+    ans = Math.round(ans)
 
     return !Number.isNaN(ans) ? ans : 0
   },

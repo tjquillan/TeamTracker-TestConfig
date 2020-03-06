@@ -210,7 +210,7 @@
     "list": [
       {
         "title": "Moved From Line (Auto)",
-        "id": "movedFromLineFrequency"
+        "id": "movedFromLineFrequencyStr"
       },
       {
         "title": "Lower Port Accuracy (Auto)",

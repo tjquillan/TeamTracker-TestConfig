@@ -4,18 +4,14 @@ var actions = {
 
     return !Number.isNaN(freq) ? freq : 0
   },
-  moveLineFrequencyStr: () => {
-    return actions.moveLineFrequency(array) + "%"
-  },
+  moveLineFrequencyStr: () => actions.moveLineFrequency(array) + "%",
   accuracy: (array) => {
     var array = array.map((array) => array.reduce((prev, curr) => prev + curr, 0))
     var ans = (array[0] / array.reduce((prev, curr) => prev + curr, 0)) * 100
 
     return !Number.isNaN(ans) ? Math.round(ans) : 0
   },
-  accuracyStr: (array) => {
-    actions.accuracy(array) + "%"
-  },
+  accuracyStr: (array) => actions.accuracy(array) + "%",
   sum: (array) => {
     var sum = array.reduce((prev, curr) => prev + curr, 0)
     return !Number.isNaN(sum) ? sum : 0

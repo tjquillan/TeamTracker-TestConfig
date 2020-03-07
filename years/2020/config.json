@@ -247,6 +247,38 @@
     ],
     "table": [
       {
+        "title": "Auto Low Port Scored",
+        "id": "autonLowPortScoredArray"
+      },
+      {
+        "title": "Auto Low Port Missed",
+        "id": "autonLowPortMissedArray"
+      },
+      {
+        "title": "Auto High Port Scored",
+        "id": "autonHighPortScoredArray"
+      },
+      {
+        "title": "Auto High Port Missed",
+        "id": "autonHighPortMissedArray"
+      },
+      {
+        "title": "TeleOp Low Port Scored",
+        "id": "teleopLowPortScoredArray"
+      },
+      {
+        "title": "TeleOp Low Port Missed",
+        "id": "teleopLowPortMissedArray"
+      },
+      {
+        "title": "TeleOp High Port Scored",
+        "id": "teleopHighPortScoredArray"
+      },
+      {
+        "title": "TeleOp High Port Missed",
+        "id": "teleopHighPortMissedArray"
+      },
+      {
         "title": "Comments",
         "id": "comments"
       }

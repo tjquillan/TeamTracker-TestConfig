@@ -284,7 +284,38 @@
       }
     ],
     "tableFooter": [
-
+      {
+        "title": "Auto Low Port Average",
+        "id": "autonLowPortScoredAverage"
+      },
+      {
+        "title": "Auto Low Port Average",
+        "id": "autonLowPortMissedAverage"
+      },
+      {
+        "title": "Auto High Port Average",
+        "id": "autonHighPortScoredAverage"
+      },
+      {
+        "title": "Auto High Port Average",
+        "id": "autonHighPortMissedAverage"
+      },
+      {
+        "title": "TeleOp Low Port Average",
+        "id": "teleopLowPortScoredAverage"
+      },
+      {
+        "title": "TeleOp Low Port Average",
+        "id": "teleopLowPortMissedAverage"
+      },
+      {
+        "title": "TeleOp High Port Average",
+        "id": "teleopHighPortScoredAverage"
+      },
+      {
+        "title": "TeleOp High Port Average",
+        "id": "teleopHighPortMissedAverage"
+      }
     ],
     "filter": [
       {

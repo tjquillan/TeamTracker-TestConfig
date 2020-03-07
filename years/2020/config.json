@@ -285,35 +285,35 @@
     ],
     "tableFooter": [
       {
-        "title": "Auto Low Port Average",
+        "title": "Average:",
         "id": "autonLowPortScoredAverage"
       },
       {
-        "title": "Auto Low Port Average",
+        "title": "Average:",
         "id": "autonLowPortMissedAverage"
       },
       {
-        "title": "Auto High Port Average",
+        "title": "Average:",
         "id": "autonHighPortScoredAverage"
       },
       {
-        "title": "Auto High Port Average",
+        "title": "Average:",
         "id": "autonHighPortMissedAverage"
       },
       {
-        "title": "TeleOp Low Port Average",
+        "title": "Average:",
         "id": "teleopLowPortScoredAverage"
       },
       {
-        "title": "TeleOp Low Port Average",
+        "title": "Average:",
         "id": "teleopLowPortMissedAverage"
       },
       {
-        "title": "TeleOp High Port Average",
+        "title": "Average:",
         "id": "teleopHighPortScoredAverage"
       },
       {
-        "title": "TeleOp High Port Average",
+        "title": "Average:",
         "id": "teleopHighPortMissedAverage"
       }
     ],

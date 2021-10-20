@@ -1,6 +1,7 @@
 {
-    "defaultGameYear": "2020",
-    "defaultEvent": "2020cadm",
-    "yearsDir": "years",
-    "eventsDir": "events"
+  "defaultGameYear": "2021",
+  "defaultEvent": "2021aztem",
+  "yearsDir": "years",
+  "eventsDir": "events"
+
 }

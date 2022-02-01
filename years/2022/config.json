@@ -2,96 +2,96 @@
   "elements": [
 
     {
-      "id": "movedFromLineArray",
+      "id": "movedFromTarmacArray",
       "tableColumn": [2],
       "type": "string",
       "action": null
     },
     {
-      "id": "movedFromLineFrequency",
+      "id": "movedFromTarmacFrequency",
       "tableColumn": [2],
       "type": "string",
       "action": "moveLineFrequency"
     },
     {
-      "id": "movedFromLineFrequencyStr",
+      "id": "movedFromTarmacFrequencyStr",
       "tableColumn": [2],
       "type": "string",
       "action": "moveLineFrequencyStr"
     },
 
     {
-      "id": "autonLowPortScoredArray",
+      "id": "autonLowerHubScoredArray",
       "tableColumn": [3],
       "type": "number",
       "action": null
     },
     {
-      "id": "autonLowPortScoredAverage",
+      "id": "autonLowerHubScoredAverage",
       "tableColumn": [3],
       "type": "number",
       "action": "averagePerMatch"
     },
     {
-      "id": "autonLowPortScoredAverageStr",
+      "id": "autonLowerHubScoredAverageStr",
       "tableColumn": [3],
       "type": "string",
       "action": "averagePerMatch"
     },
 
     {
-      "id": "autonHighPortScoredArray",
+      "id": "autonHigherHubScoredArray",
       "tableColumn": [4],
       "type": "number",
       "action": null
     },
     {
-      "id": "autonHighPortScoredAverage",
+      "id": "autonHigherHubScoredAverage",
       "tableColumn": [4],
       "type": "number",
       "action": "averagePerMatch"
     },
     {
-      "id": "autonHighPortScoredAverageStr",
+      "id": "autonHigherHubScoredAverageStr",
       "tableColumn": [4],
       "type": "string",
       "action": "averagePerMatch"
     },
 
     {
-      "id": "teleopLowPortScoredArray",
-      "tableColumn": [5],
-      "type": "number",
-      "action": null
-    },
-    {
-      "id": "teleopLowPortScoredAverage",
-      "tableColumn": [5],
-      "type": "number",
-      "action": "averagePerMatch"
-    },
-    {
-      "id": "teleopLowPortScoredAverageStr",
-      "tableColumn": [4],
-      "type": "string",
-      "action": "averagePerMatch"
-    },
-
-    {
-      "id": "teleopHighPortScoredArray",
+      "id": "teleopLowerHubScoredArray",
       "tableColumn": [6],
       "type": "number",
       "action": null
     },
     {
-      "id": "teleopHighPortScoredAverage",
+      "id": "teleopLowerHubScoredAverage",
       "tableColumn": [6],
       "type": "number",
       "action": "averagePerMatch"
     },
     {
-      "id": "teleopHighPortScoredAverageStr",
-      "tableColumn": [4],
+      "id": "teleopLowerHubScoredAverageStr",
+      "tableColumn": [6],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "teleopHigherHubScoredArray",
+      "tableColumn": [7],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopHigherHubScoredAverage",
+      "tableColumn": [7],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopHigherHubScoredAverageStr",
+      "tableColumn": [7],
       "type": "string",
       "action": "averagePerMatch"
     },
@@ -122,61 +122,61 @@
 
       {
         "title": "Auto LP",
-        "id": "autonLowPortScoredAverage"
+        "id": "autonLowerHubScoredAverage"
       },
             {
         "title": "Auto OP",
-        "id": "autonHighPortScoredAverage"
+        "id": "autonHigherHubScoredAverage"
       },
             {
         "title": "TeleOp LP",
-        "id": "teleopLowPortScoredAverage"
+        "id": "teleopLowerHubScoredAverage"
       },
       {
         "title": "TeleOp OP",
-        "id": "teleopHighPortScoredAverage"
+        "id": "teleopHigherHubScoredAverage"
       }
 
       ],
     "list": [
 
       {
-        "title": "Moved From Line (Auto)",
+        "title": "Moved From Tarmac (Auto)",
         "id": "movedFromLineFrequencyStr"
       },
       {
-        "title": "Lower Port Average (Auto)",
-        "id": "autonLowPortAverageStr"
+        "title": "Lower Hub Average (Auto)",
+        "id": "autonLowerHubAverageStr"
       },
       {
-        "title": "Outer/Inner Port Average (Auto)",
-        "id": "autonHighPortAverageStr"
+        "title": "Outer/Inner Hub Average (Auto)",
+        "id": "autonHigherHubAverageStr"
       },
       {
-        "title": "Lower Port Average (Teleop)",
-        "id": "teleopLowPortAverageStr"
+        "title": "Lower Hub Average (Teleop)",
+        "id": "teleopLowerHubAverageStr"
       },
       {
-        "title": "Outer/Inner Port Average (Teleop)",
-        "id": "teleopHighPortAverageStr"
+        "title": "Higher Hub Average (Teleop)",
+        "id": "teleopHigherHubAverageStr"
       }
     ],
     "table": [
       {
-        "title": "Auto Low Port Scored",
-        "id": "autonLowPortScoredArray"
+        "title": "Auto Lower Hub Scored",
+        "id": "autonLowerHubScoredArray"
       },
       {
-        "title": "Auto High Port Scored",
-        "id": "autonHighPortScoredArray"
+        "title": "Auto Higher Hub Scored",
+        "id": "autonHigherHubScoredArray"
       },
       {
-        "title": "TeleOp Low Port Scored",
-        "id": "teleopLowPortScoredArray"
+        "title": "TeleOp Lower Hub Scored",
+        "id": "teleopLowerHubScoredArray"
       },
       {
-        "title": "TeleOp High Port Scored",
-        "id": "teleopHighPortScoredArray"
+        "title": "TeleOp Higher Hub Scored",
+        "id": "teleopHigherHubScoredArray"
       },
       {
         "title": "Robot Break",
@@ -186,7 +186,7 @@
     "tableFooter": [
       {
         "title": "Average:",
-        "id": "autonLowPortScoredAverage"
+        "id": "autonLowerHubScoredAverage"
       },
       {
         "title": "Average:",
@@ -194,16 +194,16 @@
       },
       {
         "title": "Average:",
-        "id": "teleopLowPortScoredAverage"
+        "id": "teleopLowerHubScoredAverage"
       },
       {
         "title": "Average:",
-        "id": "teleopHighPortScoredAverage"
+        "id": "teleopHigherHubScoredAverage"
       }
      ],
     "filter": [
       {
-        "title": "Moved From Line (Auto)",
+        "title": "Moved From Tarmac (Auto)",
         "id": "movedFromLineFrequency",
         "min": 0,
         "max": 100

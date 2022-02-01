@@ -1,0 +1,7 @@
+{
+  "match": {
+    "spreadsheetId": "1dd00HS8nymz7ahvlK1XKP7beSDltIokxAVri27cYnH8",
+    "range": "B2:L",
+    "teamColumn": "C"
+  }
+}

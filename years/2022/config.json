@@ -1,0 +1,219 @@
+{
+  "elements": [
+
+    {
+      "id": "movedFromLineArray",
+      "tableColumn": [2],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "movedFromLineFrequency",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequency"
+    },
+    {
+      "id": "movedFromLineFrequencyStr",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequencyStr"
+    },
+
+    {
+      "id": "autonLowPortScoredArray",
+      "tableColumn": [3],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonLowPortScoredAverage",
+      "tableColumn": [3],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonLowPortScoredAverageStr",
+      "tableColumn": [3],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "autonHighPortScoredArray",
+      "tableColumn": [4],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonHighPortScoredAverage",
+      "tableColumn": [4],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonHighPortScoredAverageStr",
+      "tableColumn": [4],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "teleopLowPortScoredArray",
+      "tableColumn": [5],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopLowPortScoredAverage",
+      "tableColumn": [5],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopLowPortScoredAverageStr",
+      "tableColumn": [4],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "teleopHighPortScoredArray",
+      "tableColumn": [6],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopHighPortScoredAverage",
+      "tableColumn": [6],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopHighPortScoredAverageStr",
+      "tableColumn": [4],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "robotBreak",
+      "tableColumn": [9],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "robotBreakFrequency",
+      "tableColumn": [9],
+      "type": "string",
+      "action": "robotBreakFrequency"
+    },
+    {
+      "id": "robotBreakFrequencyStr",
+      "tableColumn": [9],
+      "type": "string",
+      "action": "robotBreakFrequencyStr"
+    }
+
+  ],
+
+  "displays": {
+    "graph": [
+
+      {
+        "title": "Auto LP",
+        "id": "autonLowPortScoredAverage"
+      },
+            {
+        "title": "Auto OP",
+        "id": "autonHighPortScoredAverage"
+      },
+            {
+        "title": "TeleOp LP",
+        "id": "teleopLowPortScoredAverage"
+      },
+      {
+        "title": "TeleOp OP",
+        "id": "teleopHighPortScoredAverage"
+      }
+
+      ],
+    "list": [
+
+      {
+        "title": "Moved From Line (Auto)",
+        "id": "movedFromLineFrequencyStr"
+      },
+      {
+        "title": "Lower Port Average (Auto)",
+        "id": "autonLowPortAverageStr"
+      },
+      {
+        "title": "Outer/Inner Port Average (Auto)",
+        "id": "autonHighPortAverageStr"
+      },
+      {
+        "title": "Lower Port Average (Teleop)",
+        "id": "teleopLowPortAverageStr"
+      },
+      {
+        "title": "Outer/Inner Port Average (Teleop)",
+        "id": "teleopHighPortAverageStr"
+      }
+    ],
+    "table": [
+      {
+        "title": "Auto Low Port Scored",
+        "id": "autonLowPortScoredArray"
+      },
+      {
+        "title": "Auto High Port Scored",
+        "id": "autonHighPortScoredArray"
+      },
+      {
+        "title": "TeleOp Low Port Scored",
+        "id": "teleopLowPortScoredArray"
+      },
+      {
+        "title": "TeleOp High Port Scored",
+        "id": "teleopHighPortScoredArray"
+      },
+      {
+        "title": "Robot Break",
+        "id": "robootBreak"
+      }
+    ],
+    "tableFooter": [
+      {
+        "title": "Average:",
+        "id": "autonLowPortScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "autonHighPortScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopLowPortScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopHighPortScoredAverage"
+      }
+     ],
+    "filter": [
+      {
+        "title": "Moved From Line (Auto)",
+        "id": "movedFromLineFrequency",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Robot Break",
+        "id": "robotBreakFrequency",
+        "min": 0,
+        "max": 100
+      }
+    ]
+  }
+}

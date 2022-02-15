@@ -1,0 +1,219 @@
+{
+  "elements": [
+
+    {
+      "id": "movedFromTarmacArray",
+      "tableColumn": [2],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "movedFromTarmacFrequency",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequency"
+    },
+    {
+      "id": "movedFromTarmacFrequencyStr",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequencyStr"
+    },
+
+    {
+      "id": "autonLowerHubScoredArray",
+      "tableColumn": [3],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonLowerHubScoredAverage",
+      "tableColumn": [3],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonLowerHubScoredAverageStr",
+      "tableColumn": [3],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "autonHigherHubScoredArray",
+      "tableColumn": [4],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonHigherHubScoredAverage",
+      "tableColumn": [4],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonHigherHubScoredAverageStr",
+      "tableColumn": [4],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "teleopLowerHubScoredArray",
+      "tableColumn": [6],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopLowerHubScoredAverage",
+      "tableColumn": [6],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopLowerHubScoredAverageStr",
+      "tableColumn": [6],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "teleopHigherHubScoredArray",
+      "tableColumn": [7],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopHigherHubScoredAverage",
+      "tableColumn": [7],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopHigherHubScoredAverageStr",
+      "tableColumn": [7],
+      "type": "string",
+      "action": "averagePerMatch"
+    },
+
+    {
+      "id": "robotBreak",
+      "tableColumn": [9],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "robotBreakFrequency",
+      "tableColumn": [9],
+      "type": "string",
+      "action": "robotBreakFrequency"
+    },
+    {
+      "id": "robotBreakFrequencyStr",
+      "tableColumn": [9],
+      "type": "string",
+      "action": "robotBreakFrequencyStr"
+    }
+
+  ],
+
+  "displays": {
+    "graph": [
+
+      {
+        "title": "Auto LP",
+        "id": "autonLowerHubScoredAverage"
+      },
+            {
+        "title": "Auto OP",
+        "id": "autonHigherHubScoredAverage"
+      },
+            {
+        "title": "TeleOp LP",
+        "id": "teleopLowerHubScoredAverage"
+      },
+      {
+        "title": "TeleOp OP",
+        "id": "teleopHigherHubScoredAverage"
+      }
+
+      ],
+    "list": [
+
+      {
+        "title": "Moved From Tarmac (Auto)",
+        "id": "movedFromLineFrequencyStr"
+      },
+      {
+        "title": "Lower Hub Average (Auto)",
+        "id": "autonLowerHubAverageStr"
+      },
+      {
+        "title": "Outer/Inner Hub Average (Auto)",
+        "id": "autonHigherHubAverageStr"
+      },
+      {
+        "title": "Lower Hub Average (Teleop)",
+        "id": "teleopLowerHubAverageStr"
+      },
+      {
+        "title": "Higher Hub Average (Teleop)",
+        "id": "teleopHigherHubAverageStr"
+      }
+    ],
+    "table": [
+      {
+        "title": "Auto Lower Hub Scored",
+        "id": "autonLowerHubScoredArray"
+      },
+      {
+        "title": "Auto Higher Hub Scored",
+        "id": "autonHigherHubScoredArray"
+      },
+      {
+        "title": "TeleOp Lower Hub Scored",
+        "id": "teleopLowerHubScoredArray"
+      },
+      {
+        "title": "TeleOp Higher Hub Scored",
+        "id": "teleopHigherHubScoredArray"
+      },
+      {
+        "title": "Robot Break",
+        "id": "robootBreak"
+      }
+    ],
+    "tableFooter": [
+      {
+        "title": "Average:",
+        "id": "autonLowerHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "autonHighPortScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopLowerHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopHigherHubScoredAverage"
+      }
+     ],
+    "filter": [
+      {
+        "title": "Moved From Tarmac (Auto)",
+        "id": "movedFromLineFrequency",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "title": "Robot Break",
+        "id": "robotBreakFrequency",
+        "min": 0,
+        "max": 100
+      }
+    ]
+  }
+}

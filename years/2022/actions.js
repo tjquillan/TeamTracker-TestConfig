@@ -22,6 +22,8 @@ var actions = {
   averagePerMatch: (array) => {
     var average = actions.sum(array) / array.length
     return !Number.isNaN(average) ? average : 0
-  }
+  },
+  averagePerMatchStr: (array) => actions.averagePerMatch(array) + "%",
+
 
 }

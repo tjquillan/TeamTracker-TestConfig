@@ -202,6 +202,7 @@
       }
      ],
     "filter": [
+      /*
       {
         "title": "Moved From Tarmac (Auto)",
         "id": "movedFromLineFrequency",
@@ -213,7 +214,7 @@
         "id": "robotBreakFrequency",
         "min": 0,
         "max": 100
-      }
+      }*/
     ]
   }
 }

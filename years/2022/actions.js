@@ -15,7 +15,10 @@ var actions = {
     return !Number.isNaN(freq) ? freq : 0
   },
   robotBreakStr: (array) => actions.robotBreak(array) + "%",
-
+  sum: (array) => {
+    var sum = array.reduce((prev, curr) => prev + curr, 0)
+    return !Number.isNaN(sum) ? sum : 0
+  },  
   averagePerMatch: (array) => {
     var average = actions.sum(array) / array.length
     return !Number.isNaN(average) ? average : 0

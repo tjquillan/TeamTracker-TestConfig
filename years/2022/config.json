@@ -106,13 +106,13 @@
       "id": "robotBreakFrequency",
       "tableColumn": [9],
       "type": "string",
-      "action": "robotBreakFrequency"
+      "action": null
     },
     {
       "id": "robotBreakFrequencyStr",
       "tableColumn": [9],
       "type": "string",
-      "action": "robotBreakFrequencyStr"
+      "action": null
     }
 
   ],

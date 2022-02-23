@@ -16,7 +16,6 @@ var actions = {
   },
   robotBreakStr: (array) => actions.robotBreak(array) + "%",
   sum: (array) => {
-    console.log(array)
     var sum = array.reduce((prev, curr) => prev + curr, 0)
     return !Number.isNaN(sum) ? sum : 0
   },  

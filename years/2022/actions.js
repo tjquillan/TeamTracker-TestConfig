@@ -16,14 +16,13 @@ var actions = {
   },
   robotBreakStr: (array) => actions.robotBreak(array) + "%",
   sum: (array) => {
+    console.log(array)
     var sum = array.reduce((prev, curr) => prev + curr, 0)
     return !Number.isNaN(sum) ? sum : 0
   },  
   averagePerMatch: (array) => {
     var average = actions.sum(array) / array.length
     return !Number.isNaN(average) ? average : 0
-  },
-  averagePerMatchStr: (array) => actions.averagePerMatch(array) + "%",
-
+  }
 
 }

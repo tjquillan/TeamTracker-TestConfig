@@ -36,7 +36,7 @@
       "id": "autonLowerHubScoredAverageStr",
       "tableColumn": [3],
       "type": "string",
-      "action": "averagePerMatchStr"
+      "action": null
     },
 
     {
@@ -55,7 +55,7 @@
       "id": "autonHigherHubScoredAverageStr",
       "tableColumn": [4],
       "type": "string",
-      "action": "averagePerMatchStr"
+      "action": null
     },
 
     {
@@ -74,7 +74,7 @@
       "id": "teleopLowerHubScoredAverageStr",
       "tableColumn": [6],
       "type": "string",
-      "action": "averagePerMatchStr"
+      "action": null
     },
 
     {
@@ -93,7 +93,7 @@
       "id": "teleopHigherHubScoredAverageStr",
       "tableColumn": [7],
       "type": "string",
-      "action": "averagePerMatchStr"
+      "action": null
     },
 
     {
@@ -106,13 +106,13 @@
       "id": "robotBreakFrequency",
       "tableColumn": [9],
       "type": "string",
-      "action": "robotBreak"
+      "action": null
     },
     {
       "id": "robotBreakFrequencyStr",
       "tableColumn": [9],
       "type": "string",
-      "action": "robotBreakStr"
+      "action": null
     }
 
   ],

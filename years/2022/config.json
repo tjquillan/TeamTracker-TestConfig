@@ -111,6 +111,12 @@
       "tableColumn": [9],
       "type": "string",
       "action": null
+    },
+    {
+     "id": "robotShootLocation",
+      "tableColumn" : [11],
+      "type": "string",
+      "action": null
     }
   ],
 
@@ -179,6 +185,10 @@
       {
         "title": "Robot Break",
         "id": "robotBreak"
+      },
+      {
+        "title": "Shooting Location",
+        "id": "robotShootLocation"
       }
     ],
     "tableFooter": [

@@ -1,6 +1,5 @@
 {
   "elements": [
-
     {
       "id": "movedFromTarmacArray",
       "tableColumn": [2],
@@ -95,7 +94,12 @@
       "type": "number",
       "action": "averagePerMatchStr"
     },
-
+    {
+      "id": "climbedTo",
+      "tableColumn": [8],
+      "type": "string",
+      "action": "climbedToStr"
+    },
     {
       "id": "robotBreak",
       "tableColumn": [9],
@@ -139,7 +143,6 @@
 
       ],
     "list": [
-
       {
         "title": "Moved From Tarmac (Auto)",
         "id": "movedFromTarmacFrequencyStr"
@@ -159,7 +162,10 @@
       {
         "title": "Higher Hub Average (Teleop)",
         "id": "teleopHigherHubScoredAverageStr"
-      }
+      },
+      {
+        "title": "Climbed To",
+        "id": "climbedTo"
     ],
     "table": [
       {
@@ -177,6 +183,10 @@
       {
         "title": "TeleOp Higher Hub Scored",
         "id": "teleopHigherHubScoredArray"
+      },
+      {
+        "title": "Climbed To",
+        "id": "climbedTo"
       },
       {
         "title": "Robot Break",

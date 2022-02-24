@@ -35,8 +35,8 @@
     {
       "id": "autonLowerHubScoredAverageStr",
       "tableColumn": [3],
-      "type": "string",
-      "action": null
+      "type": "number",
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -54,8 +54,8 @@
     {
       "id": "autonHigherHubScoredAverageStr",
       "tableColumn": [4],
-      "type": "string",
-      "action": null
+      "type": "number",
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -73,8 +73,8 @@
     {
       "id": "teleopLowerHubScoredAverageStr",
       "tableColumn": [6],
-      "type": "string",
-      "action": null
+      "type": "number",
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -92,8 +92,8 @@
     {
       "id": "teleopHigherHubScoredAverageStr",
       "tableColumn": [7],
-      "type": "string",
-      "action": null
+      "type": "number",
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -142,23 +142,23 @@
 
       {
         "title": "Moved From Tarmac (Auto)",
-        "id": "movedFromLineFrequencyStr"
+        "id": "movedFromTarmacFrequencyStr"
       },
       {
         "title": "Lower Hub Average (Auto)",
-        "id": "autonLowerHubAverageStr"
+        "id": "autonLowerHubScoredAverageStr"
       },
       {
         "title": "Outer/Inner Hub Average (Auto)",
-        "id": "autonHigherHubAverageStr"
+        "id": "autonHigherHubScoredAverageStr"
       },
       {
         "title": "Lower Hub Average (Teleop)",
-        "id": "teleopLowerHubAverageStr"
+        "id": "teleopLowerHubScoredAverageStr"
       },
       {
         "title": "Higher Hub Average (Teleop)",
-        "id": "teleopHigherHubAverageStr"
+        "id": "teleopHigherHubScoredAverageStr"
       }
     ],
     "table": [

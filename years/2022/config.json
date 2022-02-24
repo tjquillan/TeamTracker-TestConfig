@@ -36,7 +36,7 @@
       "id": "autonLowerHubScoredAverageStr",
       "tableColumn": [3],
       "type": "string",
-      "action": null
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -55,7 +55,7 @@
       "id": "autonHigherHubScoredAverageStr",
       "tableColumn": [4],
       "type": "string",
-      "action": null
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -74,7 +74,7 @@
       "id": "teleopLowerHubScoredAverageStr",
       "tableColumn": [6],
       "type": "string",
-      "action": null
+      "action": "averagePerMatchStr"
     },
 
     {
@@ -93,7 +93,7 @@
       "id": "teleopHigherHubScoredAverageStr",
       "tableColumn": [7],
       "type": "string",
-      "action": null
+      "action": "averagePerMatchStr"
     },
 
     {

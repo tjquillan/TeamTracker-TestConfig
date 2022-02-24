@@ -142,7 +142,7 @@
 
       {
         "title": "Moved From Tarmac (Auto)",
-        "id": "movedFromLineFrequencyStr"
+        "id": "movedFromTarmacFrequencyStr"
       },
       {
         "title": "Lower Hub Average (Auto)",

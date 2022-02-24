@@ -146,19 +146,19 @@
       },
       {
         "title": "Lower Hub Average (Auto)",
-        "id": "autonLowerHubAverageStr"
+        "id": "autonLowerHubScoredAverageStr"
       },
       {
         "title": "Outer/Inner Hub Average (Auto)",
-        "id": "autonHigherHubAverageStr"
+        "id": "autonHigherHubScoredAverageStr"
       },
       {
         "title": "Lower Hub Average (Teleop)",
-        "id": "teleopLowerHubAverageStr"
+        "id": "teleopLowerHubScoredAverageStr"
       },
       {
         "title": "Higher Hub Average (Teleop)",
-        "id": "teleopHigherHubAverageStr"
+        "id": "teleopHigherHubScoredAverageStr"
       }
     ],
     "table": [

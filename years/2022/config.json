@@ -101,12 +101,6 @@
       "action": "null"
     },
     {
-      "id": "climbedTo",
-      "tableColumn": [8],
-      "type": "string",
-      "action": "climbedTo"
-    },
-    {
       "id": "robotBreak",
       "tableColumn": [9],
       "type": "string",
@@ -159,10 +153,6 @@
       {
         "title": "Higher Hub Average (Teleop)",
         "id": "teleopHigherHubScoredAverageStr"
-      },
-      {
-        "title": "Climbed To",
-        "id": "climbedTo"
       }
     ],
     "table": [

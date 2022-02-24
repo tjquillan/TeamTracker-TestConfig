@@ -95,10 +95,16 @@
       "action": "averagePerMatchStr"
     },
     {
+      "id": "climbedToArray",
+      "tableColumn": [8],
+      "type": "string",
+      "action": "null"
+    },
+    {
       "id": "climbedTo",
       "tableColumn": [8],
       "type": "string",
-      "action": "climbedToStr"
+      "action": "climbedTo"
     },
     {
       "id": "robotBreak",
@@ -111,19 +117,11 @@
       "tableColumn": [9],
       "type": "string",
       "action": null
-    },
-    {
-      "id": "robotBreakFrequencyStr",
-      "tableColumn": [9],
-      "type": "string",
-      "action": null
     }
-
   ],
 
   "displays": {
     "graph": [
-
       {
         "title": "Auto LP",
         "id": "autonLowerHubScoredAverage"
@@ -140,8 +138,7 @@
         "title": "TeleOp OP",
         "id": "teleopHigherHubScoredAverage"
       }
-
-      ],
+    ],
     "list": [
       {
         "title": "Moved From Tarmac (Auto)",
@@ -166,6 +163,7 @@
       {
         "title": "Climbed To",
         "id": "climbedTo"
+      }
     ],
     "table": [
       {
@@ -186,7 +184,7 @@
       },
       {
         "title": "Climbed To",
-        "id": "climbedTo"
+        "id": "climbedToArray"
       },
       {
         "title": "Robot Break",

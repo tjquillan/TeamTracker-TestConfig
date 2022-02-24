@@ -98,7 +98,7 @@
       "id": "climbedToArray",
       "tableColumn": [8],
       "type": "string",
-      "action": "null"
+      "action": null
     },
     {
       "id": "robotBreak",

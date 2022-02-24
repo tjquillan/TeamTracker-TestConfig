@@ -1,7 +1,4 @@
-
 var actions = {
-
-
   moveLineFrequency: (array) => {
     var freq = (array.filter((value) => value === "Yes").length / array.length) * 100
 
@@ -24,6 +21,5 @@ var actions = {
     var average = actions.sum(array) / array.length
     return !Number.isNaN(average) ? average : 0
   },
-  averagePerMatchStr: (array) => actions.averagePerMatch(array) + "%"
-  
+  averagePerMatchStr: (array) => actions.averagePerMatch(array)
 }

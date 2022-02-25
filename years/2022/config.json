@@ -1,6 +1,18 @@
 {
   "elements": [
     {
+      "id": "matchNumber",
+      "tableColumn": [0],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "matchNumberFooter",
+      "tableColumn": [],
+      "type": "string",
+      "action": null
+    },
+    {
       "id": "movedFromTarmacArray",
       "tableColumn": [2],
       "type": "string",
@@ -117,6 +129,18 @@
       "tableColumn" : [11],
       "type": "string",
       "action": "robotShootLocations"
+    },
+    {
+      "id": "shotsInterruptedArray",
+      "tableColumn": [12],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "shotsInterruptedAverageStr",
+      "tableColumn": [12],
+      "type": "number",
+      "action": "averagePerMatchStr"
     }
   ],
 
@@ -163,9 +187,17 @@
       {
         "title": "Shooting Locations",
         "id": "robotShootLocations"
+      },
+      {
+        "title": "Average Shots Interrupted",
+        "id": "shotsInterruptedAverageStr"
       }
     ],
     "table": [
+      {
+        "title": "Match Number",
+        "id": "matchNumber"
+      },
       {
         "title": "Auto Lower Hub Scored",
         "id": "autonLowerHubScoredArray"
@@ -189,9 +221,17 @@
       {
         "title": "Robot Break",
         "id": "robotBreak"
+      },
+      {
+        "title": "Shots Interrupted",
+        "id": "shotsInterruptedArray"
       }
     ],
     "tableFooter": [
+      {
+        "title": "",
+        "id": "matchNumberFooter"
+      },
       {
         "title": "Average:",
         "id": "autonLowerHubScoredAverage"
@@ -207,6 +247,10 @@
       {
         "title": "Average:",
         "id": "teleopHigherHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "shotsInterruptedAverageStr"
       }
      ],
     "filter": [

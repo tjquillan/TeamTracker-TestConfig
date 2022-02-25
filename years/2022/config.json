@@ -7,7 +7,7 @@
       "action": null
     },
     {
-      "id": "matchNumberFooter",
+      "id": "emptyFooter",
       "tableColumn": [],
       "type": "string",
       "action": null
@@ -215,22 +215,22 @@
         "id": "teleopHigherHubScoredArray"
       },
       {
+        "title": "Shots Interrupted",
+        "id": "shotsInterruptedArray"
+      },
+      {
         "title": "Climbed To",
         "id": "climbedToArray"
       },
       {
         "title": "Robot Break",
         "id": "robotBreak"
-      },
-      {
-        "title": "Shots Interrupted",
-        "id": "shotsInterruptedArray"
       }
     ],
     "tableFooter": [
       {
         "title": "",
-        "id": "matchNumberFooter"
+        "id": "emptyFooter"
       },
       {
         "title": "Average:",

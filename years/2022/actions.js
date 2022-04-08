@@ -22,6 +22,6 @@ var actions = {
   averagePerMatchStr: (array) => actions.averagePerMatch(array),
   
   robotShootLocations: (array) => {
-    return Array.from(new Set(array.filter(a => typeof a === "string" && !a.trim().isEmpty()).map(a => a.split(", ")).flat())).join(", ")
+    return Array.from(new Set(array.filter(a => typeof a === "string" && !String(a).trim().isEmpty()).map(a => a.split(", ")).flat())).join(", ")
   } 
 }

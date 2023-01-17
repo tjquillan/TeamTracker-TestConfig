@@ -1,0 +1,118 @@
+{
+  "sheet": {},
+  "periods": {
+    "general": {
+      "name": "General",
+      "sections": {
+        "name": {
+          "name": "Name",
+          "type": "text",
+          "column": 0,
+          "max_value": 30,
+          "required": true,
+          "persistant": true
+        },
+        "team": {
+          "name": "Team Number",
+          "type": "text",
+          "column": 1,
+          "max_value": 4,
+          "required": true
+        },
+        "match": {
+          "name": "Match Number",
+          "type": "text",
+          "column": 2,
+          "required": true
+        }
+      }
+    },
+    "auto": {
+      "name": "Autonomous",
+      "sections": {
+        "bottom": {
+          "name": "Pieces Scored On Bottom Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 3
+        },
+        "middle": {
+          "name": "Pieces Scored On Middle Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 4
+        },
+        "top": {
+          "name": "Pieces Scored On Top Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 5
+        },
+        "end": {
+          "name": "Did they dock or engage?",
+          "type": "option",
+          "display": "radio",
+          "column": 6,
+          "options": [
+            "Dock",
+            "Engage"
+          ]
+        }
+      }
+    },
+    "teleop": {
+      "name": "Teleoperated",
+      "sections": {
+        "bottom": {
+          "name": "Pieces Scored On Bottom Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 7
+        },
+        "middle": {
+          "name": "Pieces Scored On Middle Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 8
+        },
+        "top": {
+          "name": "Pieces Scored On Top Row",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 9
+        },
+        "pieces": {
+          "name": "What game pieces can they score?",
+          "type": "option",
+          "display": "checkbox",
+          "column": 10,
+          "options": [
+            "Cones",
+            "Cubes"
+          ]
+        }
+      }
+    },
+    "endgame": {
+      "name": "Endgame",
+      "sections": {
+        "position": {
+          "name": "Did they park, dock, or engage?",
+          "type": "option",
+          "display": "radio",
+          "options": [
+            "Park",
+            "Dock",
+            "Engage"
+          ]
+        }
+      }
+    }
+  }
+}

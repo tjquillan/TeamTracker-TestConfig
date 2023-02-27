@@ -1,0 +1,260 @@
+{
+  "elements": [
+    {
+      "id": "matchNumber",
+      "tableColumn": [0],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "emptyFooter",
+      "tableColumn": [],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "movedFromTarmacArray",
+      "tableColumn": [2],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "movedFromTarmacFrequency",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequency"
+    },
+    {
+      "id": "movedFromTarmacFrequencyStr",
+      "tableColumn": [2],
+      "type": "string",
+      "action": "moveLineFrequencyStr"
+    },
+
+    {
+      "id": "autonLowerHubScoredArray",
+      "tableColumn": [3],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonLowerHubScoredAverage",
+      "tableColumn": [3],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonLowerHubScoredAverageStr",
+      "tableColumn": [3],
+      "type": "number",
+      "action": "averagePerMatchStr"
+    },
+
+    {
+      "id": "autonHigherHubScoredArray",
+      "tableColumn": [4],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "autonHigherHubScoredAverage",
+      "tableColumn": [4],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "autonHigherHubScoredAverageStr",
+      "tableColumn": [4],
+      "type": "number",
+      "action": "averagePerMatchStr"
+    },
+
+    {
+      "id": "teleopLowerHubScoredArray",
+      "tableColumn": [6],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopLowerHubScoredAverage",
+      "tableColumn": [6],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopLowerHubScoredAverageStr",
+      "tableColumn": [6],
+      "type": "number",
+      "action": "averagePerMatchStr"
+    },
+
+    {
+      "id": "teleopHigherHubScoredArray",
+      "tableColumn": [7],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopHigherHubScoredAverage",
+      "tableColumn": [7],
+      "type": "number",
+      "action": "averagePerMatch"
+    },
+    {
+      "id": "teleopHigherHubScoredAverageStr",
+      "tableColumn": [7],
+      "type": "number",
+      "action": "averagePerMatchStr"
+    },
+    {
+      "id": "climbedToArray",
+      "tableColumn": [8],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "robotBreak",
+      "tableColumn": [9],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "robotBreakFrequency",
+      "tableColumn": [9],
+      "type": "string",
+      "action": null
+    },
+    {
+     "id": "robotShootLocations",
+      "tableColumn" : [11],
+      "type": "string",
+      "action": "robotShootLocations"
+    },
+    {
+      "id": "shotsInterruptedArray",
+      "tableColumn": [12],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "shotsInterruptedAverageStr",
+      "tableColumn": [12],
+      "type": "number",
+      "action": "averagePerMatchStr"
+    }
+  ],
+
+  "displays": {
+    "graph": [
+      {
+        "title": "Auto LP",
+        "id": "autonLowerHubScoredAverage"
+      },
+            {
+        "title": "Auto OP",
+        "id": "autonHigherHubScoredAverage"
+      },
+            {
+        "title": "TeleOp LP",
+        "id": "teleopLowerHubScoredAverage"
+      },
+      {
+        "title": "TeleOp OP",
+        "id": "teleopHigherHubScoredAverage"
+      }
+    ],
+    "list": [
+      {
+        "title": "Moved From Tarmac (Auto)",
+        "id": "movedFromTarmacFrequencyStr"
+      },
+      {
+        "title": "Lower Hub Average (Auto)",
+        "id": "autonLowerHubScoredAverageStr"
+      },
+      {
+        "title": "Outer/Inner Hub Average (Auto)",
+        "id": "autonHigherHubScoredAverageStr"
+      },
+      {
+        "title": "Lower Hub Average (Teleop)",
+        "id": "teleopLowerHubScoredAverageStr"
+      },
+      {
+        "title": "Higher Hub Average (Teleop)",
+        "id": "teleopHigherHubScoredAverageStr"
+      },
+      {
+        "title": "Shooting Locations",
+        "id": "robotShootLocations"
+      },
+      {
+        "title": "Average Shots Interrupted",
+        "id": "shotsInterruptedAverageStr"
+      }
+    ],
+    "table": [
+      {
+        "title": "Match Number",
+        "id": "matchNumber"
+      },
+      {
+        "title": "Auto Lower Hub Scored",
+        "id": "autonLowerHubScoredArray"
+      },
+      {
+        "title": "Auto Higher Hub Scored",
+        "id": "autonHigherHubScoredArray"
+      },
+      {
+        "title": "TeleOp Lower Hub Scored",
+        "id": "teleopLowerHubScoredArray"
+      },
+      {
+        "title": "TeleOp Higher Hub Scored",
+        "id": "teleopHigherHubScoredArray"
+      },
+      {
+        "title": "Shots Interrupted",
+        "id": "shotsInterruptedArray"
+      },
+      {
+        "title": "Climbed To",
+        "id": "climbedToArray"
+      },
+      {
+        "title": "Robot Break",
+        "id": "robotBreak"
+      }
+    ],
+    "tableFooter": [
+      {
+        "title": "",
+        "id": "emptyFooter"
+      },
+      {
+        "title": "Average:",
+        "id": "autonLowerHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "autonHigherHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopLowerHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "teleopHigherHubScoredAverage"
+      },
+      {
+        "title": "Average:",
+        "id": "shotsInterruptedAverageStr"
+      }
+     ],
+    "filter": [
+      
+    ]
+  }
+}

@@ -68,12 +68,12 @@
     "teleop": {
       "name": "Teleoperated",
       "sections": {
-        "bottom": {
-          "name": "Pieces Scored On Bottom Row",
+        "top": {
+          "name": "Pieces Scored On Top Row",
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 7
+          "column": 9
         },
         "middle": {
           "name": "Pieces Scored On Middle Row",
@@ -82,18 +82,29 @@
           "min_value": 0,
           "column": 8
         },
-        "top": {
-          "name": "Pieces Scored On Top Row",
+        "bottom": {
+          "name": "Pieces Scored On Bottom Row",
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 9
+          "column": 7
+        },
+        "rows": {
+          "name": "What rows can they score on?",
+          "type": "option",
+          "display": "checkbox",
+          "column": 10,
+          "options": [
+            "Top Row",
+            "Middle Row",
+            "Bottom Row"
+          ]
         },
         "pieces": {
           "name": "What game pieces can they score?",
           "type": "option",
           "display": "checkbox",
-          "column": 10,
+          "column": 11,
           "options": [
             "Cones",
             "Cubes"
@@ -108,6 +119,7 @@
           "name": "Did they park, dock, or engage?",
           "type": "option",
           "display": "radio",
+          "column": 12,
           "options": [
             "Park",
             "Dock",

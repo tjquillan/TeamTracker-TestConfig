@@ -2,8 +2,8 @@
   "elements": [
     {
       "id": "matchNumber",
-      "tableColumn": [0],
-      "type": "string",
+      "tableColumn": [2],
+      "type": "number",
       "action": null
     },
     {
@@ -13,184 +13,219 @@
       "action": null
     },
     {
-      "id": "movedFromTarmacArray",
-      "tableColumn": [2],
-      "type": "string",
-      "action": null
-    },
-    {
-      "id": "movedFromTarmacFrequency",
-      "tableColumn": [2],
-      "type": "string",
-      "action": "moveLineFrequency"
-    },
-    {
-      "id": "movedFromTarmacFrequencyStr",
-      "tableColumn": [2],
-      "type": "string",
-      "action": "moveLineFrequencyStr"
-    },
-
-    {
-      "id": "autonLowerHubScoredArray",
+      "id": "autonTopRowArray",
       "tableColumn": [3],
       "type": "number",
       "action": null
     },
     {
-      "id": "autonLowerHubScoredAverage",
+      "id": "autonTopRowAvg",
       "tableColumn": [3],
       "type": "number",
-      "action": "averagePerMatch"
+      "action": "average"
     },
     {
-      "id": "autonLowerHubScoredAverageStr",
+      "id": "autonTopRowFreq",
       "tableColumn": [3],
       "type": "number",
-      "action": "averagePerMatchStr"
+      "action": "sum"
     },
-
     {
-      "id": "autonHigherHubScoredArray",
+      "id": "autonMiddleRowArray",
       "tableColumn": [4],
       "type": "number",
       "action": null
     },
     {
-      "id": "autonHigherHubScoredAverage",
+      "id": "autonMiddleRowAvg",
       "tableColumn": [4],
       "type": "number",
-      "action": "averagePerMatch"
+      "action": "average"
     },
     {
-      "id": "autonHigherHubScoredAverageStr",
+      "id": "autonMiddleRowFreq",
       "tableColumn": [4],
       "type": "number",
-      "action": "averagePerMatchStr"
+      "action": "sum"
     },
-
     {
-      "id": "teleopLowerHubScoredArray",
-      "tableColumn": [6],
+      "id": "autonBottomRowArray",
+      "tableColumn": [5],
       "type": "number",
       "action": null
     },
     {
-      "id": "teleopLowerHubScoredAverage",
-      "tableColumn": [6],
+      "id": "autonBottomRowAvg",
+      "tableColumn": [5],
       "type": "number",
-      "action": "averagePerMatch"
+      "action": "average"
     },
     {
-      "id": "teleopLowerHubScoredAverageStr",
-      "tableColumn": [6],
+      "id": "autonBottomRowFreq",
+      "tableColumn": [5],
       "type": "number",
-      "action": "averagePerMatchStr"
+      "action": "sum"
     },
-
     {
-      "id": "teleopHigherHubScoredArray",
-      "tableColumn": [7],
-      "type": "number",
+      "id": "autonEndArray",
+      "tableColumn": [6],
+      "type": "string",
       "action": null
     },
     {
-      "id": "teleopHigherHubScoredAverage",
-      "tableColumn": [7],
-      "type": "number",
-      "action": "averagePerMatch"
+      "id": "autonEndSet",
+      "tableColumn": [6],
+      "type": "string",
+      "action": "setStr"
     },
     {
-      "id": "teleopHigherHubScoredAverageStr",
+      "id": "autonRowsArray",
       "tableColumn": [7],
-      "type": "number",
-      "action": "averagePerMatchStr"
+      "type": "string",
+      "action": null
     },
     {
-      "id": "climbedToArray",
+      "id": "autonRowsSet",
+      "tableColumn": [7],
+      "type": "string",
+      "action": "setStr"
+    },
+    {
+      "id": "teleopTopRowArray",
       "tableColumn": [8],
-      "type": "string",
-      "action": null
-    },
-    {
-      "id": "robotBreak",
-      "tableColumn": [9],
-      "type": "string",
-      "action": null
-    },
-    {
-      "id": "robotBreakFrequency",
-      "tableColumn": [9],
-      "type": "string",
-      "action": null
-    },
-    {
-     "id": "robotShootLocations",
-      "tableColumn" : [11],
-      "type": "string",
-      "action": "robotShootLocations"
-    },
-    {
-      "id": "shotsInterruptedArray",
-      "tableColumn": [12],
       "type": "number",
       "action": null
     },
     {
-      "id": "shotsInterruptedAverageStr",
-      "tableColumn": [12],
+      "id": "teleopTopRowAvg",
+      "tableColumn": [8],
       "type": "number",
-      "action": "averagePerMatchStr"
+      "action": "average"
+    },
+    {
+      "id": "teleopTopRowFreq",
+      "tableColumn": [8],
+      "type": "number",
+      "action": "sum"
+    },
+    {
+      "id": "teleopMiddleRowArray",
+      "tableColumn": [9],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopMiddleRowAvg",
+      "tableColumn": [9],
+      "type": "number",
+      "action": "average"
+    },
+    {
+      "id": "teleopMiddleRowFreq",
+      "tableColumn": [9],
+      "type": "number",
+      "action": "sum"
+    },
+    {
+      "id": "teleopBottomRowArray",
+      "tableColumn": [10],
+      "type": "number",
+      "action": null
+    },
+    {
+      "id": "teleopBottomRowAvg",
+      "tableColumn": [10],
+      "type": "number",
+      "action": "average"
+    },
+    {
+      "id": "teleopBottomRowFreq",
+      "tableColumn": [10],
+      "type": "number",
+      "action": "sum"
+    },
+    {
+      "id": "piecesArray",
+      "tableColumn": [11],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "piecesSet",
+      "tableColumn": [11],
+      "type": "string",
+      "action": "setStr"
+    },
+    {
+      "id": "teleopEndArray",
+      "tableColumn": [12],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "teleopEndSet",
+      "tableColumn": [12],
+      "type": "string",
+      "action": "setStr"
+    },
+    {
+      "id": "robotBreakArray",
+      "tableColumn": [13],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "defendedArray",
+      "tableColumn": [14],
+      "type": "string",
+      "action": null
     }
   ],
 
   "displays": {
     "graph": [
-      {
-        "title": "Auto LP",
-        "id": "autonLowerHubScoredAverage"
-      },
-            {
-        "title": "Auto OP",
-        "id": "autonHigherHubScoredAverage"
-      },
-            {
-        "title": "TeleOp LP",
-        "id": "teleopLowerHubScoredAverage"
-      },
-      {
-        "title": "TeleOp OP",
-        "id": "teleopHigherHubScoredAverage"
-      }
+      
     ],
     "list": [
       {
-        "title": "Moved From Tarmac (Auto)",
-        "id": "movedFromTarmacFrequencyStr"
+        "title": "Average Top Row Auto",
+        "id": "autonTopRowAvg"
       },
       {
-        "title": "Lower Hub Average (Auto)",
-        "id": "autonLowerHubScoredAverageStr"
+        "title": "Average Middle Row Auto",
+        "id": "autonMiddleRowAvg"
       },
       {
-        "title": "Outer/Inner Hub Average (Auto)",
-        "id": "autonHigherHubScoredAverageStr"
+        "title": "Average Bottom Row Auto",
+        "id": "autonBottomRowAvg"
       },
       {
-        "title": "Lower Hub Average (Teleop)",
-        "id": "teleopLowerHubScoredAverageStr"
+        "title": "Possible Auto Endings",
+        "id": "autonEndSet"
       },
       {
-        "title": "Higher Hub Average (Teleop)",
-        "id": "teleopHigherHubScoredAverageStr"
+        "title": "Possible Auto Rows",
+        "id": "autonRowsSet"
       },
       {
-        "title": "Shooting Locations",
-        "id": "robotShootLocations"
+        "title": "Average Top Row TeleOp",
+        "id": "teleopTopRowAvg"
       },
       {
-        "title": "Average Shots Interrupted",
-        "id": "shotsInterruptedAverageStr"
+        "title": "Average Middle Row TeleOp",
+        "id": "teleopMiddleRowAvg"
+      },
+      {
+        "title": "Average Bottom Row TeleOp",
+        "id": "teleopBottomRowAvg"
+      },
+      {
+        "title": "Scorable Pieces",
+        "id": "piecesSet"
+      },
+      {
+        "title": "Possible TeleOp Endings",
+        "id": "teleopEndSet"
       }
     ],
     "table": [
@@ -199,60 +234,57 @@
         "id": "matchNumber"
       },
       {
-        "title": "Auto Lower Hub Scored",
-        "id": "autonLowerHubScoredArray"
+        "title": "Top Row Auto",
+        "id": "autonTopRowArray"
       },
       {
-        "title": "Auto Higher Hub Scored",
-        "id": "autonHigherHubScoredArray"
+        "title": "Middle Row Auto",
+        "id": "autonMiddleRowArray"
       },
       {
-        "title": "TeleOp Lower Hub Scored",
-        "id": "teleopLowerHubScoredArray"
+        "title": "Bottom Row Auto",
+        "id": "autonBottomRowArray"
       },
       {
-        "title": "TeleOp Higher Hub Scored",
-        "id": "teleopHigherHubScoredArray"
+        "title": "Auto Ending",
+        "id": "autonEndArray"
       },
       {
-        "title": "Shots Interrupted",
-        "id": "shotsInterruptedArray"
+        "title": "Auto Rows",
+        "id": "autonRowsArray"
       },
       {
-        "title": "Climbed To",
-        "id": "climbedToArray"
+        "title": "Top Row TeleOp",
+        "id": "teleopTopRowArray"
       },
       {
-        "title": "Robot Break",
-        "id": "robotBreak"
+        "title": "Middle Row TeleOp",
+        "id": "teleopMiddleRowArray"
+      },
+      {
+        "title": "Bottom Row TeleOp",
+        "id": "teleopBottomRowArray"
+      },
+      {
+        "title": "Scorable Pieces",
+        "id": "piecesArray"
+      },
+      {
+        "title": "Endgame",
+        "id": "teleopEndArray"
+      },
+      {
+        "title": "Broke?",
+        "id": "robotBreakArray"
+      },
+      {
+        "title": "Played Defense?",
+        "id": "defendedArray"
       }
     ],
     "tableFooter": [
-      {
-        "title": "",
-        "id": "emptyFooter"
-      },
-      {
-        "title": "Average:",
-        "id": "autonLowerHubScoredAverage"
-      },
-      {
-        "title": "Average:",
-        "id": "autonHigherHubScoredAverage"
-      },
-      {
-        "title": "Average:",
-        "id": "teleopLowerHubScoredAverage"
-      },
-      {
-        "title": "Average:",
-        "id": "teleopHigherHubScoredAverage"
-      },
-      {
-        "title": "Average:",
-        "id": "shotsInterruptedAverageStr"
-      }
-     ],
+      
+    ],
     "filter": [
       
     ]

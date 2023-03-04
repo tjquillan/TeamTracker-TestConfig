@@ -184,7 +184,30 @@
 
   "displays": {
     "graph": [
-      
+      {
+        "title": "Auto TR",
+        "id": "autonTopRowAvg"
+      },
+      {
+        "title": "Auto MR",
+        "id": "autonMiddleRowAvg"
+      },
+      {
+        "title": "Auto BR",
+        "id": "autonBottomRowAvg"
+      },
+      {
+        "title": "TeleOp TR",
+        "id": "teleopTopRowAvg"
+      },
+      {
+        "title": "TeleOp MR",
+        "id": "teleopMiddleRowAvg"
+      },
+      {
+        "title": "TeleOp BR",
+        "id": "teleopBottomRowAvg"
+      }
     ],
     "list": [
       {

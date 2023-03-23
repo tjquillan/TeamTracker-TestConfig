@@ -109,6 +109,16 @@
             "Cones",
             "Cubes"
           ]
+        },
+        "intake": {
+          "name": "Where do they intake from?",
+          "type": "option",
+          "display": "checkbox",
+          "column": 17,
+          "options": [
+            "Ground",
+            "Substation"
+          ]
         }
       }
     },
@@ -137,6 +147,13 @@
           "type": "click",
           "default_value": "No",
           "column": 14
+        },
+        "penalties": {
+          "name": "Penalties",
+          "type": "counter",
+          "default_value": 0,
+          "min_value": 0,
+          "column": 16
         },
         "comments": {
           "name": "Comments",

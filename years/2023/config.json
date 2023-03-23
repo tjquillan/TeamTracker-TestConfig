@@ -169,6 +169,18 @@
       "action": "setStr"
     },
     {
+      "id": "intakeFromArray",
+      "tableColumn": [17],
+      "type": "string",
+      "action": null
+    },
+    {
+      "id": "intakeFromSet",
+      "tableColumn": [17],
+      "type": "string",
+      "action": "setStr"
+    },
+    {
       "id": "robotBreakArray",
       "tableColumn": [13],
       "type": "string",
@@ -178,6 +190,12 @@
       "id": "defendedArray",
       "tableColumn": [14],
       "type": "string",
+      "action": null
+    },
+    {
+      "id": "penaltiesArray",
+      "tableColumn": [16],
+      "type": "number",
       "action": null
     }
   ],
@@ -249,6 +267,10 @@
       {
         "title": "Possible TeleOp Endings",
         "id": "teleopEndSet"
+      },
+      {
+        "title": "Intakes From",
+        "id": "intakeFromSet"
       }
     ],
     "table": [
@@ -303,6 +325,14 @@
       {
         "title": "Played Defense?",
         "id": "defendedArray"
+      },
+      {
+        "title": "Penalties",
+        "id": "penaltiesArray"
+      },
+      {
+        "title": "Intake",
+        "id": "intakeFromArray"
       }
     ],
     "tableFooter": [

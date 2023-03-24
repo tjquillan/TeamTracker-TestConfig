@@ -32,12 +32,12 @@
     "auto": {
       "name": "Autonomous",
       "sections": {
-        "bottom": {
-          "name": "Pieces Scored On Bottom Row",
+        "top": {
+          "name": "Pieces Scored On Top Row",
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 3
+          "column": 5
         },
         "middle": {
           "name": "Pieces Scored On Middle Row",
@@ -46,12 +46,12 @@
           "min_value": 0,
           "column": 4
         },
-        "top": {
-          "name": "Pieces Scored On Top Row",
+        "bottom": {
+          "name": "Pieces Scored On Bottom Row",
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 5
+          "column": 3
         },
         "end": {
           "name": "Did they dock or engage?",

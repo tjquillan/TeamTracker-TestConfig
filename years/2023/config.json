@@ -92,19 +92,19 @@
     },
     {
       "id": "teleopTopRowArray",
-      "tableColumn": [8],
+      "tableColumn": [10],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopTopRowAvg",
-      "tableColumn": [8],
+      "tableColumn": [10],
       "type": "number",
       "action": "average"
     },
     {
       "id": "teleopTopRowFreq",
-      "tableColumn": [8],
+      "tableColumn": [10],
       "type": "number",
       "action": "sum"
     },
@@ -128,19 +128,19 @@
     },
     {
       "id": "teleopBottomRowArray",
-      "tableColumn": [10],
+      "tableColumn": [8],
       "type": "number",
       "action": null
     },
     {
       "id": "teleopBottomRowAvg",
-      "tableColumn": [10],
+      "tableColumn": [8],
       "type": "number",
       "action": "average"
     },
     {
       "id": "teleopBottomRowFreq",
-      "tableColumn": [10],
+      "tableColumn": [8],
       "type": "number",
       "action": "sum"
     },

@@ -176,7 +176,7 @@
     },
     {
       "id": "intakeFromSet",
-      "tableColumn": [17],
+      "tableColumn": [16],
       "type": "string",
       "action": "setStr"
     },
@@ -194,7 +194,7 @@
     },
     {
       "id": "penaltiesArray",
-      "tableColumn": [16],
+      "tableColumn": [17],
       "type": "number",
       "action": null
     }

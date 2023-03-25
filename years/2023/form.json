@@ -37,7 +37,7 @@
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 5
+          "column": 3
         },
         "middle": {
           "name": "Pieces Scored On Middle Row",
@@ -51,7 +51,7 @@
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 3
+          "column": 5
         },
         "end": {
           "name": "Did they dock or engage?",

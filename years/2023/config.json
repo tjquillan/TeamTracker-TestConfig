@@ -170,7 +170,7 @@
     },
     {
       "id": "intakeFromArray",
-      "tableColumn": [17],
+      "tableColumn": [16],
       "type": "string",
       "action": null
     },

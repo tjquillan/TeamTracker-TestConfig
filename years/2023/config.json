@@ -3,7 +3,7 @@
     {
       "id": "matchNumber",
       "tableColumn": [2],
-      "type": "number",
+      "type": "string",
       "action": null
     },
     {

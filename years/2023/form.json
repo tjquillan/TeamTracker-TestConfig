@@ -148,17 +148,24 @@
           "default_value": "No",
           "column": 14
         },
+        "defense_rank": {
+          "name": "If there was defense, how would you rank the defense overall?",
+          "type": "counter",
+          "min_value": 0,
+          "max_value": 5,
+          "column": 15
+        },
         "penalties": {
           "name": "Penalties",
           "type": "counter",
           "default_value": 0,
           "min_value": 0,
-          "column": 17
+          "column": 18
         },
         "comments": {
           "name": "Comments",
           "type": "text",
-          "column": 15
+          "column": 17
         }
       }
     }

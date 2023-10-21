@@ -193,8 +193,14 @@
       "action": null
     },
     {
+      "id": "defenseRankArray",
+      "tableColumn": [15],
+      "type": "number",
+      "action": "average"
+    },
+    {
       "id": "penaltiesArray",
-      "tableColumn": [17],
+      "tableColumn": [18],
       "type": "number",
       "action": null
     }
@@ -325,6 +331,10 @@
       {
         "title": "Played Defense?",
         "id": "defendedArray"
+      },
+      {
+        "title": "Defense Rank",
+        "id": "defenseRankArray"
       },
       {
         "title": "Penalties",
